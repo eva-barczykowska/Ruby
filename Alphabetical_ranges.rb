@@ -16,3 +16,4 @@ puts alphabet.last(3)
 
 capital_alphabet = "A".."z"
 puts capital_alphabet.first(40)
+puts capital_alphabet.first(40)
