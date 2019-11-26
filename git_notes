@@ -1,0 +1,16 @@
+#git commands
+#git version
+#git init
+#git add <index.html>
+#git add .   - git will add/stage all the files to git
+#now commit - git will record a snapshot
+#git commit -m 'initial commit' - write in imperative
+#all the changes are there in the local depository so we need to push it to github
+
+#add our newly created repository as our remote repository
+#git remote add origin https://github.com/eva_barczykowska/ruby_notes.git
+#C:/Users/BarczykowskaE/.git
+
+#push existing
+#git remote add origin https://github.com/eva_barczykowska/ruby_notes.git
+#git push -u origin master

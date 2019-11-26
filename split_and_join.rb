@@ -57,3 +57,19 @@ print str.split("l").join("Z")
 puts
 
 print str.split("o").join("0")
+
+puts
+puts
+#print "Jeff Bridges".split(" ")
+
+arr = ["Jeff Bridges"]
+
+arr.each do |elem|
+  print elem
+end #prints all the elements
+
+puts
+puts
+arr.each do |elem|
+  print elem[0] #prints only the first element
+end
