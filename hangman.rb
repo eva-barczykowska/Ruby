@@ -16,7 +16,7 @@
 #until the word is guessed, prompt user for input
 #until the word is guessed display to the users the letters that he/she used
 #do I need join method in the end to present the whole word?
-#na koncu array.to_s in order to join all the letters into the word 
+#na koncu array.to_s in order to join all the letters into the word
 
 
 
@@ -75,3 +75,15 @@ puts guess_word.gsub(guess_word, "_")
 #else
   #print
 #guess_word.gsub(_, guess_letter)
+loop do
+if guess = character
+puts str['character'] # prints 'shelf'
+else put str[_]
+
+
+=begin
+1. Don’t be surprised if people pass unexpected objects into your methods. If you absolutely can’t use what they give you, raise an error.
+2.It’s poor etiquette to change objects your method is given. Use dup to make a copy. Or find a method like gsub that automatically makes a copy as it does its job.
+The square brackets can be used to lookup parts inside any Array, Hash or String objects, as these objects provide a [] method. Also, since these objects provide a []= method, the square brackets can be used in assignment (on the left-hand side of the equals sign) to change the parts of those objects.
+3.Watch for runaway loops. Avoid while and until if you can.
+=end
