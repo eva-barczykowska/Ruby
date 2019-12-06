@@ -70,4 +70,5 @@ end
 #Let’s see how much each cat would cost if we added a 20% tip.
 catsandtip = [0.12, 0.63, 0.09].collect { |catcost| catcost + ( catcost * 0.20 ) }
 
-#do this example with a meal 
+#do this example with a meal
+#
