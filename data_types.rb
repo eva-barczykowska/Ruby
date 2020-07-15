@@ -19,7 +19,7 @@ p 5.methods.count
 "this is a sentence".gsub("e") { puts "Found an E!" }
 
 
-meals = %w[breakfast, lunch, tea, dinner]
+meals = %w[breakfast lunch tea dinner] #we don't need a comma, comma will be added after each elements
 p meals
 p meals.last.class
 p meals

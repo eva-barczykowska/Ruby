@@ -1,5 +1,5 @@
-#use it when you have if - then design and you want to put it into
-#something easy
+# use it when you have if - then design and you want to put it into
+# something easy
 
 if 1 < 2
   puts "Yes, it is!"
@@ -39,7 +39,7 @@ else
   puts "That is not Charizard."
 end
 
-#refactoring, this is much neater:
+# refactoring, this is much neater:
 def check_pokemon(pokemon)
 pokemon =="Charizard" ? "Fireball!" : "That is not Charizard!"
 end

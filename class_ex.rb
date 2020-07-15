@@ -8,7 +8,7 @@ book = Book.new
 puts book.what_am_i
 
 # We name these methods “instance methods”, because “instance” is another name for “object”,
-#  and these methods exist to work with objects.
+# and these methods exist to work with objects.
 
 class Book
   def initialize(author, title)
@@ -77,7 +77,7 @@ end
 
 #When you use attr_writer or attr_accessor
 # you can change the value of instance variables outside the class, e.g.
-deep_dive.title = "Ruby"
+deep_dive.title= "Ruby"
 
 # Everything you have seen so far is about instances, objects created from the class (using new).
 # But it’s also possible to create class-level methods.

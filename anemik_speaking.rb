@@ -1,8 +1,10 @@
 
 #a = [ "a", "b", "c", "d" ]
 #a.collect { |x| x + "!" }
+
 #sputs 1 < 2 ? "Yes, it is!" : "No it isn't!"
 
+puts "First try: "
 sentence = "I told you so"
 
  puts (sentence.include?("a")) ? (sentence.gsub!("a", "aaa")) : sentence
@@ -23,6 +25,7 @@ puts
 #add letters to the new array which you declare at the beginning
 #but analyze letters and in case they are a, e, u, i, double them, (otherwise do nothing)
 
+puts "Second try - the best solution:"
 def slow_me_down(text)
 text = text.split("")
 result = []
@@ -44,18 +47,11 @@ text.collect! do |element|
 end
 return result.join
 end
+
 print slow_me_down("hello Penguins")
 
-
-
-
-
-
-
-
 puts
 puts
-
 
 
 # this is nice but has a bug, my intention was different than the result
@@ -63,25 +59,6 @@ puts
 # it finds e.g "o" in "I told you" and replaces o with ooo. But then it jumps out of the loop and doesn' t see
 # that there is another vowel I wanted to replace, "u".
 
-
-
-
-
-puts
-
-def slow_me_down(sentence)
-  counter = 0
-  letters = %w[a e o u i y]
-  while counter > sentence.length
-    if sentence.include?([letters[counter]])
-    sentence.gsub!(letter, counter)
-    end
-    counter += 1
-  end
-  return sentence
-end
-
-p slow_me_down("lets go")
 
 puts
 
@@ -94,16 +71,18 @@ puts
 # doesn't work
 # try each with index?
 
-
+puts "Third try:"
+puts "(this doesn't actually work the way I want)"
 
 def slow_me_down(sentence)
   counter = 0
+  result = []
 letters = %w[a e o u i y]
 letters.each do |letter|
  sentence.split("").each do |character|
 
     if character == letter
-      sentence << character * 2
+      sentence << character + character
     end
   end
 end

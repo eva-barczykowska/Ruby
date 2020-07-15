@@ -2,12 +2,15 @@ random_array = [2, 88, "ewa"]
 p random_array.length
 p random_array.size
 
+puts
+
 word = "ewentualnie"
 p word.size
 p word.length
 
 puts
 puts
+
 puts "Your name is: "
 name = gets
 p name

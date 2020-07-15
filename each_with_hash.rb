@@ -1,4 +1,4 @@
-# just each
+# .each
 price_list = {"knedliki" => 59, "bread" => 16, "sourcream" => 35, "pears" => 39 }
 
 price_list.each { |item, price| puts "Item #{item} costs #{price}."}

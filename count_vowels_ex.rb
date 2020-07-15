@@ -42,7 +42,7 @@ puts
 # 2nd version
 
 def count_vowels(sentence)
-  vowels = %w[ a  e i o u]
+  vowels = %w[ a  e i o u ]
   counter = 0
   sentence.split("").each do |char|
     vowels.each do |vowel|
