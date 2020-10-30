@@ -10,6 +10,8 @@ puts name + maiden_name
 puts age
 puts rich
 
+puts 
+
 p name + maiden_name
 p age
 p rich

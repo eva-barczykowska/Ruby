@@ -6,7 +6,7 @@ puts "aoui".include?("x")
 
 def abbreviate(word)
   vowels = "aeiou"
-  no_vowels =""
+  no_vowels = ""
   word.each_char do |char|
     if !vowels.include?(char)
       no_vowels += char

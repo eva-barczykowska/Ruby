@@ -1,4 +1,5 @@
-#what if is to unless, until is to while, they are contradictory
+# what if != to unless
+# until != while, they are contradictory
 
 =begin
 
@@ -18,4 +19,4 @@ until i > 9
   i += 1
 end
 
-#until this condition is NOT true
+# until this condition is NOT true
