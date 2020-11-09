@@ -1,14 +1,16 @@
 puts "This is the beginning."
 
-require "./end.rb" #extension is not required
-require "./end" #it is going to execute what's in end.rb once once
+# require "/Users/ewabarczykowska/Ruby/Input and Output/end.rb" #extension is not required
+require_relative "end.rb" #it is going to execute what's in end.rb once once
 
-load "end.rb" #load executes as many times as called
+# load "/Users/ewabarczykowska/Ruby/Input and Output/end.rb" #load executes as many times as called
 
-puts "That was successful."
+puts "Loading the end.rb file was successful."
 
-load "./end.rb" #./ means in this current directory
-if 8 > 5
-  load "end.rb"
+# load "/Users/ewabarczykowska/Ruby/Input and Output/end.rb"
 
-end
+# load "./end.rb" #./ means in this current directory
+# if 8 > 5
+#   load "end.rb"
+#
+# end
